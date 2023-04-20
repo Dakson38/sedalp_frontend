@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contactos{
+    margin-bottom: 150px;
+    margin-bottom: 50px;
+
+    width: 90%;
+    height: 110vh;
+    
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2%;
+}
+
+/*Foto de la gestion Huayna Mallku*/
+.gestion{
+    position: absolute;
+    z-index: -1;
+    right: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gestion img{
+    width: 100%;
+    height: 350px;
+    opacity: 0.3;
+}
+/***********************************/
+
+/*Titulo CONTACTO vertical*/
+.titulo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.titulo h1{
+    text-align: center;
+
+    font-family: Roboto;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+/*************************************/
+
+
+.informacionSedalp{
+    width: 70%;
+
+    border: 1px solid #fff;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*Informacion acerca de como encontrarlos*/
+.informacionContacto{
+    width: 100%;
+    height: 30%;
+    padding: 30px;
+
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+}
+.informacionContacto td{
+    padding: 8px;
+}
+/****************************************/
+
+/*Redes Sociales*/
+.redesSociales{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 20px;
+}
+
+.redesSociales img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+/************************/
+
+/*Google Maps*/
+.ubicacionMapa{
+    width: 100%;
+    height: 55%;
+}
+
+.ubicacionMapa iframe{
+    border-radius: 10px;
+}
+
+/*************************/
+
